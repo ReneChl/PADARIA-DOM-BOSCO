@@ -2,7 +2,8 @@ window.revelar = ScrollReveal({reset:true});
 
     revelar.reveal('.efeito-img-topo', { // estou chamando a classe  a qual eu quero atribuir o efeito do scrollReveal
         duration: 2000,
-        distance: '70px'
+        distance: '70px',
+        origin: 'left'
     });
 
     revelar.reveal('.clientes-efeito', {
@@ -29,6 +30,17 @@ window.revelar = ScrollReveal({reset:true});
         origin: 'top'
     });
 
+    revelar.reveal('.img-js', {
+        duration: 2000,
+        distance: '120px',
+        origin: 'left'
+    });
+
+    revelar.reveal('.padaria-js', {
+        duration: 2000,
+        distance: '120px',
+        origin: 'ringt'
+    });
 
 
 
